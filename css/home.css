@@ -424,7 +424,7 @@ html, body {
 }
 
 .filter-wrapper .filter-display {
-	min-width  : 100px;
+	min-width  : 30px;
 	text-align : left;
 }
 
