@@ -1,0 +1,254 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script';
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+
+a {
+	color:white;
+	background-color: transparent;
+}
+
+a:hover {
+	color:white;
+	background-color: transparent;
+}
+
+a:active {
+	color:white;
+	background-color: transparent;
+}
+
+a:linked {
+	color:white;
+	background-color: transparent;
+}
+
+html, body {
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+body {
+	background:url('../img/note2.jpg');
+	height:100%;
+	background-size: cover;
+	background-repeat: repeat-y;
+}
+
+.social_nav {
+	font-family:'font-awesome';
+	font-size:18px;
+	color:#1abc9c;
+	cursor:pointer;
+	font-weight:600;
+}
+
+
+.nav-icon {
+	font-family:'Dancing Script';
+	font-size:30px;
+	color:#1abc9c;
+	font-weight:600;
+	
+}
+
+.login_over {
+	background:#1abc9c;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	display:none;
+	-vendor-animation-duration: 10s;
+  	-vendor-animation-delay: 12s;
+}
+
+.login {
+	position:relative;
+}
+
+.mynote {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 75px;
+	color: white;
+	font-weight: 600;
+	margin-top:120px;
+	text-shadow: 1px 2px 4px #000;
+}
+
+.quotes {
+	font-family: 'Dancing Script';
+	font-size: 30px;
+	font-weight: 200;
+	color: #1abc9c;
+}
+
+.loginButton {
+	background:rgba(26, 188, 156, 0.55);
+	margin-top:15px;
+	border:1px solid #1abc9c;
+	padding:10px 15px;
+	width:300px;
+	height:50px;
+	color:white;
+	font-family:'Montserrat';
+	font-size:20px;
+	font-weight:400;
+	border-radius:5px;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	transition:0.5s;
+
+}
+
+.loginButton:hover {
+	background:#1abc9c;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	transition:0.5s;
+
+}
+
+.loginButton:active {
+	background:rgba(26, 188, 156, 0.55);
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	transition:0.5s;
+}
+
+.signinButton {
+	background:transparent;
+	margin-top:15px;
+	border:1px solid #fff;
+	padding:10px 15px;
+	width:300px;
+	height:50px;
+	color:white;
+	font-family:Montserrat;
+	font-size:20px;
+	font-weight:400;
+	border-radius:5px;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	transition:0.5s;
+}
+
+.signinButton:hover {
+	background:rgba(255, 255, 255, 0.2);
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	transition:0.5s;
+}
+
+.signinButton:active {
+	background:transparent;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	transition:0.5s;
+}
+
+.loginTab {
+	width:400px;
+	height:340px;
+	background:#2a8c78;
+	border-radius: 20px;
+	border:0.5px #1e7261 solid;
+	margin-top: 55px;
+	box-shadow: 1px 2px 4px #000000;
+}
+
+.loginText {
+	background:rgba(255, 255, 255, 0.9);
+	margin-top:15px;
+	border:1px solid #153932;
+	padding:10px 15px;
+	width:90%;
+	height:50px;
+	color:#153932;
+	font-family:'Poiret One';
+	font-size:20px;
+	font-weight:700;
+	border-radius:5px;
+}
+
+.loginHeading {
+	font-family: 'Poiret One';
+	font-weight: 500;
+	color: white;
+	font-size: 35px;
+}
+
+.loginSubmit {
+	background:#153932;
+	margin-top:15px;
+	text-align: center;
+	border:1px solid #153932;
+	padding:10px 15px;
+	width:90%;
+	height:50px;
+	color:white;
+	font-family:'Poiret One';
+	font-size:20px;
+	font-weight:700;
+	border-radius:5px;
+}
+
+.closeMe {
+	font-family: 'Poiret One';
+	font-size:40px;
+	font-weight: 100;
+	color: white;
+	cursor: pointer;
+}
+
+a .closeMe {
+	color:white;
+	text-decoration: none;
+	transition: none;
+}
+
+.signin_over {
+	background:#1abc9c;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	display:none;
+	-vendor-animation-duration: 10s;
+  	-vendor-animation-delay: 12s;
+}
+
+.signin {
+	position:relative;
+}
+
+.signinTab {
+	width:400px;
+	height:460px;
+	background:#2a8c78;
+	border-radius: 20px;
+	border:0.5px #1e7261 solid;
+	margin-top: 55px;
+	box-shadow: 1px 2px 4px #000000;
+}
+
+@media only screen and (max-width: 800px) {
+	.mynote {
+		font-size: 35px;
+	}
+	.quotes {
+		font-size: 20px;
+	}
+	.loginTab {
+		width:100%;
+	}
+	.closeMe {
+		font-size: 20px;
+	}
+	.signinTab {
+		width: 100%;
+	}
+}
+
